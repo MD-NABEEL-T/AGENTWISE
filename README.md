@@ -19,12 +19,11 @@ POST /get-rule
   "claimType": "Flood",
   "state": "Florida"
 }
-### Response
-json
+Response
 {
-"summary":"Food claims in Florida must be reported within 30 days",
-"document":FoodPolicy.pdf,
-"page":2
+  "summary": "Flood claims in Florida must be reported within 30 days.",
+  "document": "FloodPolicy.pdf",
+  "page": 2
 }
 
 Appian Integration
