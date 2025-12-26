@@ -19,3 +19,28 @@ POST /get-rule
   "claimType": "Flood",
   "state": "Florida"
 }
+### Response
+json
+{
+"summary":"Food claims in Florida must be reported within 30 days",
+"document":FoodPolicy.pdf,
+"page":2
+}
+
+Appian Integration
+
+OpenAPI imported into Appian Connected System
+
+Expression Rule calls integration
+
+Response used inside Appian UI and workflows
+
+Demo Evidence
+
+Screenshots included showing:
+
+FastAPI Swagger UI
+
+ngrok public URL
+
+Appian integration test success
